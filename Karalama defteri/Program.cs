@@ -19,11 +19,11 @@ namespace Karalama_defteri
 
             Kullanıcı kullanıcı3 = new Kullanıcı();
             kullanıcı3.KullaniciAdi = "ADMIN";
-            kullanıcı3.KullaniciSifresi = 789456123;
+            kullanıcı3.KullaniciSifresi = 78945612;
 
             //Console.WriteLine(kullanıcı1.KullaniciAdi);
 
-            bool durumAdmin = (kullanıcı3.KullaniciAdi == "ADMN" && kullanıcı3.KullaniciSifresi == 789456123) ? true : false;
+            bool durumAdmin = (kullanıcı3.KullaniciAdi == "ADMN" && kullanıcı3.KullaniciSifresi == 78945612) ? true : false;
             bool durumCagdas = (kullanıcı1.KullaniciAdi == "Cağda" && kullanıcı1.KullaniciSifresi == 12345) ? true : false;
             bool durumSamet = (kullanıcı2.KullaniciAdi == "Samet" && kullanıcı2.KullaniciSifresi == 751248963) ? true : false;
             Console.WriteLine(durumAdmin);
