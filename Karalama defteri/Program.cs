@@ -16,7 +16,7 @@ namespace Karalama_defteri
             Kullanıcı kullanıcı2 = new Kullanıcı();
             kullanıcı2.KullaniciAdi = "Samet";
             kullanıcı2.KullaniciSifresi = 751248963;
-
+              
             Kullanıcı kullanıcı3 = new Kullanıcı();
             kullanıcı3.KullaniciAdi = "ADMIN";
             kullanıcı3.KullaniciSifresi = 78945612;
