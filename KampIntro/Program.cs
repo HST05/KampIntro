@@ -6,10 +6,10 @@ namespace KampIntro
     {
         static void Main(string[] args)
         {
-            bool sistemeGirisYapmisMi = true;
+            bool sistemeGirisYapmisMi = false;
 
             double dolarDun = 7.35;
-            double dolarBugun = 7.45;
+            double dolarBugun = 7.00;
 
             if (dolarDun>dolarBugun)
             {
